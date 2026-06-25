@@ -1,0 +1,95 @@
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#f5f3ff;
+}
+
+.container{
+  text-align:center;
+  padding:30px;
+}
+
+.heading{
+  color:#6d28d9;
+  font-size:35px;
+}
+
+.subtitle{
+  color:#666;
+  margin-bottom:20px;
+}
+
+.form-box{
+  width:400px;
+  margin:auto;
+  background:white;
+  padding:20px;
+  border-radius:15px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+input{
+  width:100%;
+  padding:12px;
+  margin-bottom:10px;
+  border:1px solid #ddd;
+  border-radius:8px;
+  box-sizing:border-box;
+}
+
+button{
+  width:100%;
+  padding:12px;
+  border:none;
+  background:#7c3aed;
+  color:white;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:16px;
+}
+
+button:hover{
+  background:#6d28d9;
+}
+
+.success{
+  width:400px;
+  margin:15px auto;
+  padding:12px;
+  background:#dcfce7;
+  color:#15803d;
+  border-radius:8px;
+  font-weight:bold;
+}
+
+.error{
+  width:400px;
+  margin:15px auto;
+  padding:12px;
+  background:#fed7aa;
+  color:#dc2626;
+  border-radius:8px;
+  font-weight:bold;
+}
+
+.list-heading{
+  margin-top:30px;
+  color:#6d28d9;
+}
+
+.participants{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:15px;
+  margin-top:20px;
+}
+
+.participant-card{
+  width:180px;
+  background:white;
+  padding:15px;
+  border-radius:12px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  font-weight:bold;
+}
